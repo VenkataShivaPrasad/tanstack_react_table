@@ -1,0 +1,55 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.appName{
+  text-align: center;
+}
+
+
+.table{
+  width: 90%;
+  text-align: left;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+tr,th,td{
+  border: 1px solid black;
+  gap: 0px;
+  padding: 10px;
+  min-width: 8rem;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+th {
+  background-color: #2F8EF5;
+  color: white;
+}
+
+.buttons{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.buttons>button{
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+#sorting-span{
+  cursor: pointer;
+}
+
+#search-input{
+  margin: 1rem 1rem 1rem 0;
+  padding: 5px;
+  width: 300px;
+  text-transform:capitalize
+}
+
+
+
